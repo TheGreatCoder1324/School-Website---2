@@ -1,0 +1,58 @@
+body {
+    background: url(background.png);
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    transition: all 0.5s linear;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 420px;
+}
+
+.swiper-slide .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.5),
+        -5px px 4px rgba(255, 255, 255, 0.5);
+    font-size: 100px;
+    font-weight: 900;
+}
+
+#Campus {
+    font-size: 4rem;
+    color: var(--red);
+}
+
+.blue-color {
+    color: blue;
+}
+
+.green-color {
+    color: green;
+}
+
+.teal-color {
+    color: teal;
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+.red-color {
+    color: red;
+}
+
+#achievements {
+    font-size: 4rem;
+    color: var(--red)
